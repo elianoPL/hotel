@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wraper {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.header {
+  background: linear-gradient(rgba(20, 39, 74, 0.5), rgba(20, 39, 74, 0.5)),
+    url("img/hotel.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+.main-heading {
+  background: #e0b973;
+  color: #14274a;
+  width: 256px;
+  height: 149px;
+  border-radius: 0 0 20px 20px;
+  text-transform: uppercase;
+  padding-top:44px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+}
+.main-heading__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 3rem;
+    display: block;
+    margin: 0 auto;
+  }
+.main-heading__title_smaller {
+  font-size: 1.4rem;
+}
+.welcome {
+    color: white;
+}
+
+
+.main-nav {
+    float: right;
+    margin-top: 50px;
+}
+.main-nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    font-size: 1 rem;
+}
+.main-nav__item {
+    margin-right:40px;
+}
+.main-nav__link {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.main-nav__link:hover, .main-nav__link:active {
+    text-decoration: underline;
+}
+.welcome {
+    margin-top: 100px;
+}
+.welcome .span {display: block;}
+.welcome_welcome {
+    text-transform: uppercase;
+    font-size: 3.0rem;
+    line-height: 0;
+    font-family: sans-serif;
+}
+.welcome_luxury{
+    font-size: 8rem;
+    line-height: 6.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.welcome_hotels {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:3rem;
+    line-height: rem;
+    text-transform: uppercase;
+}
+.welcome_desc{
+    font-family: sans-serif;
+    font-size: 1 rem;
+    line-height: ;
+}
